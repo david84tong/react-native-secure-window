@@ -28,13 +28,15 @@
   "author": "bufgix <farukoruc.dev@gmail.com> (https://github.com/bufgix)",
   "license": "MIT",
   "homepage": "https://github.com/bufgix/react-native-secure-window#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@bufgix/react-native-secure-window": "^0.1.1"
+  },
   "devDependencies": {
-    "@types/react": "^18.0.25",
+    "@types/react": "17.0.2",
     "expo-module-scripts": "^3.0.11",
     "expo-modules-core": "^1.5.7",
-    "expo-screen-capture": "^5.3.0",
-    "react-native": "^0.72.4"
+    "expo-screen-capture": "^5.5.0",
+    "react-native": "0.68.2"
   },
   "peerDependencies": {
     "expo": "*",

@@ -27,7 +27,7 @@ export default function App() {
         />
       </SecureWindow>
 
-      <Text style={{ marginTop: 100 }}>
+      <Text style={{ padding: 20 }}>
         This text is not protected by the SecureWindow
       </Text>
     </View>
@@ -37,6 +37,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop: 90,
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
